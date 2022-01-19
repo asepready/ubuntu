@@ -10,8 +10,7 @@ apt install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | tee /etc/apt/sources.list.d/sublime-text.list
 
 # Step 4: Installing Sublime Text on Ubuntu 20.04 / Debian 10|11
-apt update
-apt install sublime-text -y
+apt update && apt install sublime-text -y
 
 # Remove Sublime
 #apt remove --autoremove sublime-text
